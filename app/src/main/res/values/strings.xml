@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">WeFish</string>
+    <string name="main_activity_title">WeFish</string>
+    <string name="fish_list">Fish List</string>
+
+    <string name="tab_profile">PROFILE</string>
+
+    <string name="ProfileImageText">Profile Image:</string>
+    <string name="NameText">Name:</string>
+    <string name="SurnameText">Surname:</string>
+    <string name="EmailText">E-mail:</string>
+
+    <string name="NameEditText">Your Name</string>
+    <string name="SurnameEditText">Your Surname</string>
+    <string name="EmailEditText">Your E-mail</string>
+
+    <string name="buttonImage">UPLOAD</string>
+    <string name="buttonSend">SEND</string>
+
+    <string name="fish1" >AmberjackEnglish</string>
+
+    <string-array name="fish_list_en">
+        <item>Octopus</item>
+        <item>Amberjack</item>
+        <item>Red Mullet</item>
+        <item>Common Sole</item>
+        <item>Angler fish</item>
+        <item>Goldblotch Grouper</item>
+        <item>Anchovy</item>
+        <item>Black Scorpion Fish</item>
+        <item>Horse Mackerel</item>
+        <item>Squid</item>
+        <item>Turbot</item>
+        <item>Two Banded Bream</item>
+        <item>Mullet</item>
+        <item>Sword Fish</item>
+        <item>Boug</item>
+        <item>White Grouper</item>
+        <item>Seabass</item>
+        <item>Bluefish</item>
+        <item>Saddled seabream</item>
+        <item>Pandora</item>
+        <item>Striped bream</item>
+        <item>Bonito</item>
+        <item>Pilchard</item>
+        <item>White Seabream</item>
+        <item>Dentex</item>
+        <item>Cuttlefish</item>
+        <item>Barracuda</item>
+        <item>Grouper</item>
+        <item>Needle Fish</item>
+    </string-array>
+
+    <string name="delete">Delete</string>
+
+    <string name="hint_fishName">Fish Name</string>
+    <string name="hint_fishWeight">Weight</string>
+    <string name="hint_fishHeight">Height</string>
+
+    <string name="buttonADD">Add</string>
+    <string name="buttonUPDATE">Update</string>
+    <string name="buttonDELETE">Delete</string>
+    <string name="create_fish_log_book">CREATE FISH LOG BOOK</string>
+
+    <string name="delete_all">Delete All</string>
+    <string name="change_language">CHANGE LANGUAGE</string>
+    <string name="name">Name:</string>
+    <string name="habitat">Habitat:</string>
+    <string name="fish">Fish</string>
+
+    <string name="logFishName">Fish Name</string>
+    <string name="logFishWeight">Weight(kg)</string>
+    <string name="logFishHeight">Height(cm)</string>
+
+    <string name="textViewMain">Fishes</string>
+    <string name="textViewMain1">Fishing Tours</string>
+    <string name="textViewMainn2">Profile</string>
+
+    <string name="buttonNotif">Open Notifications</string>
+    <string name="notification">Succeesfully opened notifications.</string>
+    <string name="tab_settings">SETTINGS</string>
+</resources>

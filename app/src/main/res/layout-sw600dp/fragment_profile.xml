@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sea"
+    tools:context="com.example.wefish.ProfileFragment">
+
+    <ImageView
+        android:id="@+id/imageViewPP"
+        android:layout_width="166dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginBottom="28dp"
+        android:contentDescription="PP"
+        app:layout_constraintBottom_toTopOf="@+id/NameEditText"
+        app:layout_constraintStart_toEndOf="@+id/ProfileImageText"
+        app:srcCompat="@drawable/icons8_account_60px"
+        tools:src="@drawable/icons8_account_60px"
+        tools:srcCompat="@drawable/icons8_account_60px" />
+
+    <Button
+        android:id="@+id/PickImgButton"
+        android:layout_width="156dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="268dp"
+        android:layout_marginTop="140dp"
+        android:text="@string/buttonImage"
+        android:textSize="20sp"
+        app:backgroundTint="@color/blue"
+        app:layout_constraintStart_toEndOf="@+id/ProfileImageText"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ProfileImageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="276dp"
+        android:layout_marginTop="140dp"
+        android:text="@string/ProfileImageText"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/SurnameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/SurnameText"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NameText" />
+
+    <EditText
+        android:id="@+id/NameEditText"
+        android:layout_width="291dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="100dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/NameEditText"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        app:layout_constraintStart_toEndOf="@+id/NameText"
+        app:layout_constraintTop_toBottomOf="@+id/ProfileImageText" />
+
+    <EditText
+        android:id="@+id/SurnameEditText"
+        android:layout_width="294dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="@string/SurnameEditText"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        app:layout_constraintStart_toEndOf="@+id/SurnameText"
+        app:layout_constraintTop_toBottomOf="@+id/NameEditText" />
+
+    <EditText
+        android:id="@+id/EmailEditText"
+        android:layout_width="295dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="12dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/EmailEditText"
+        android:inputType="textEmailAddress"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        app:layout_constraintStart_toEndOf="@+id/EmailText"
+        app:layout_constraintTop_toBottomOf="@+id/SurnameEditText" />
+
+    <Button
+        android:id="@+id/logBookButton"
+        android:layout_width="359dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="120dp"
+        android:text="@string/create_fish_log_book"
+        android:textSize="25sp"
+        app:backgroundTint="@color/blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EmailEditText" />
+
+    <TextView
+        android:id="@+id/EmailText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="52dp"
+        android:text="@string/EmailText"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SurnameText" />
+
+    <TextView
+        android:id="@+id/NameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="124dp"
+        android:text="@string/NameText"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ProfileImageText" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">WeFish</string>
+    <string name="main_activity_title">WeFish</string>
+    <string name="fish_list">Balık Listesi</string>
+
+    <string name="tab_profile">PROFİL</string>
+
+    <string name="ProfileImageText">Profil Resmi:</string>
+    <string name="NameText">Ad:</string>
+    <string name="SurnameText">Soyad:</string>
+    <string name="EmailText">E-mail:</string>
+
+    <string name="NameEditText">Ad</string>
+    <string name="SurnameEditText">Soyad</string>
+    <string name="EmailEditText">E-mail</string>
+
+    <string name="buttonImage">YÜKLE</string>
+    <string name="buttonSend">GÖNDER</string>
+
+    <string name="fish1" >AkyaTürkişş</string>
+
+    <string-array name="fish_list_en">
+        <item>Ahtapot</item>
+        <item>Akya</item>
+        <item>Barbun</item>
+        <item>Dil Balığı</item>
+        <item>Fener Balığı</item>
+        <item>Grida</item>
+        <item>Hamsi</item>
+        <item>İskorpit</item>
+        <item>İstavrit</item>
+        <item>Kalamar</item>
+        <item>Kalkan</item>
+        <item>Karagöz</item>
+        <item>Kefal</item>
+        <item>Kılıç</item>
+        <item>Kupez</item>
+        <item>Lahoz</item>
+        <item>Levrek</item>
+        <item>Lüfer</item>
+        <item>Melanur</item>
+        <item>Mercan</item>
+        <item>Mırmır</item>
+        <item>Palamut</item>
+        <item>Sardalya</item>
+        <item>Sargoz</item>
+        <item>Sinarit</item>
+        <item>Sübye</item>
+        <item>Turna</item>
+        <item>Orfoz</item>
+        <item>Zargana</item>
+    </string-array>
+
+    <string name="delete">Sil</string>
+
+    <string name="hint_fishName">Balığın Adı</string>
+    <string name="hint_fishWeight">Kilosu</string>
+    <string name="hint_fishHeight">Boyu</string>
+
+    <string name="buttonADD">Ekle</string>
+    <string name="buttonUPDATE">Güncelle</string>
+    <string name="buttonDELETE">Sil</string>
+    <string name="create_fish_log_book">BALIK GÜNLÜĞÜ OLUŞTUR</string>
+
+    <string name="delete_all">Hepsini Sil</string>
+    <string name="change_language">Dil DEĞİŞTİR</string>
+    <string name="name">İsim:</string>
+    <string name="habitat">Habitat:</string>
+    <string name="fish">Balık</string>
+
+    <string name="logFishName">Balığın Adı</string>
+    <string name="logFishWeight">Ağırlığı</string>
+    <string name="logFishHeight">Boyu</string>
+
+    <string name="textViewMain">Balıklar</string>
+    <string name="textViewMain1">Balık Avı Turları</string>
+    <string name="textViewMainn2">Profil</string>
+
+    <string name="buttonNotif">Bildirimleri Aç</string>
+    <string name="notification">Bildirimleri başarıyla açtınız.</string>
+    <string name="tab_settings">AYARLAR</string>
+</resources>
